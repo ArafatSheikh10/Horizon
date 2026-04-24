@@ -328,6 +328,7 @@
 
     .buy__wrapper {
         min-height: 500px;
+        background-size: cover;
     }
 
     .buy__content h3 {
