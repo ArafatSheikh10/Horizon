@@ -6,6 +6,10 @@
 
 @media screen and (max-width: 1449px) {
 
+    .route__bottom {
+        margin-top: -102px;
+    }
+
     .buy__wrapper {
         background-size: contain;
     }
