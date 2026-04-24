@@ -555,6 +555,7 @@
         flex-direction: column;
         gap: 30px;
         margin-top: 40px;
+        align-items: center;
     }
 
     .buy__area {
@@ -590,6 +591,7 @@
         font-size: 19px;
         width: 193px;
         padding: 16px 39px;
+        margin-top: 0;
     }
 
     .footer__logo a img {
