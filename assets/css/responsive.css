@@ -15,6 +15,10 @@
         right: 205px;
     }
 
+    .book__btn {
+        width: 100%;
+    }
+
 
 }
 
@@ -56,21 +60,22 @@
 
     .route__top__right {
         top: -142px;
-        height: 525px;
+        padding: 38px;
+        border-radius: 40px;
     }
 
-    .route__top__right .icon img{
-        width: 70px;
-        height: 70px;
+    .route__top__right .icon img {
+        width: 62px;
+        height: 62px;
     }
 
     .route__office h3 {
-        font-size: 26px;
+        font-size: 25px;
         margin-bottom: 0;
     }
 
     .route__office p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .weather__top__left .icon img{
@@ -79,19 +84,24 @@
     }
 
     .weather__top__left h3 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .weather__top__left p {
         font-size: 14px;
     }
 
+    .weather__top__left .icon img{
+        width: 50px;
+        height: 50px;
+    }
+
     .temp {
-        font-size: 52px;
+        font-size: 40px;
     }
 
     .temp span {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .route_mark_1 {
@@ -152,7 +162,6 @@
 
     .book__btn {
         font-size: 24px;
-        width: 332px;
         padding: 16px 45px;
     }
 
@@ -253,7 +262,6 @@
 
     .route__top__right {
         top: -142px;
-        height: 502px;
         max-width: 400px;
         margin: auto;
     }
@@ -278,6 +286,10 @@
         object-fit: cover;
     }
 
+    .route__top__left .route__thumb {
+        margin-top: 20px;
+    }
+
     .route_mark_1 {
         top: 69px;
         left: 58px;
@@ -289,7 +301,7 @@
     }
 
     .route__bottom {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .route__bottom__wrapper {
@@ -386,6 +398,22 @@
         flex-direction: column;
     }
 
+    .footer__right {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer__newsletter {
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 55px;
+    }
+
+    .footer__newsletter h3 {
+        font-size: 35px;
+        text-align: center;
+    }
+
 }
 
 
@@ -419,6 +447,29 @@
         grid-template-columns: 1fr;
     }
 
+    .service__btn {
+        font-size: 20px;
+        width: 330px;
+        padding: 15px 40px;
+        margin-top: -32px;
+    }
+
+    .hero__content {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__content h3 {
+        font-size: 28px;
+    }
+
+    .hero__content h1 {
+        font-size: 47px;
+        line-height: 65px;
+    }
+
 }
 
 
@@ -432,7 +483,7 @@
     }
 
     .header__logo a img {
-        height: 40px;
+        height: 47px;
     }
 
     .header__common__btn{
@@ -467,7 +518,7 @@
     }
 
     .hero__content h1 {
-        font-size: 28px;
+        font-size: 32px;
         line-height: 40px;
         max-width: 380px;
         width: 100%;
@@ -485,7 +536,6 @@
     }
 
     .route__top__right {
-        height: 440px;
         border-radius: 30px;
     }
 
@@ -557,8 +607,8 @@
     }
 
     .service__btn{
-        font-size: 22px;
-        width: 276px;
+        font-size: 20px;
+        width: 260px;
         padding: 13px 45px;
         margin-top: -36px;
     }
@@ -617,7 +667,8 @@
     }
 
     .footer__newsletter h3 {
-        font-size: 32px;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .footer__right {
@@ -662,6 +713,10 @@
 
     .copyright__left p {
         text-align: center;
+    }
+
+    .search-form{
+        display: flex;
     }
 
 }

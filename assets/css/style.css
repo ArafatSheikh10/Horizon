@@ -259,13 +259,17 @@ textarea {
   height: 53px;
 }
 
+.search-form {
+  display: none;
+  margin-top: 40px;
+}
+
 .search-form input{
   width: 100%;
   padding: 12px 20px;
   font-size: 16px;
   font-weight: 500;
   border-radius: 12px;
-  margin: 40px 0;
   color: #fff;
   background-color: #396FB7;
   border: none;
@@ -293,6 +297,7 @@ textarea {
 .search-submit img{
   width: 28px;
   height: 28px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7480%) hue-rotate(64deg) brightness(100%) contrast(104%);
 }
 
 .header__sidebar .main__menu{
@@ -301,7 +306,7 @@ textarea {
   box-shadow: none;
   border-radius: none;
   padding: 0;
-  margin: 20px 0 40px;
+  margin: 60px 0 40px;
 }
 
 .header__sidebar .main__menu ul{
@@ -382,14 +387,13 @@ textarea {
 
 .route__top__right {
   background-color: #FFF;
-  padding: 25px;
+  padding: 56px 55px 118px 50px;
   box-shadow: 0px 4px 4px 0px #00000040;
   border-radius: 60px;
   width: 100%;
   position: relative;
   top: -235px;
   z-index: 2;
-  height: 635px;
 }
 
 .route__office {
@@ -513,10 +517,18 @@ textarea {
   position: absolute;
 }
 
+.common__title {
+  position: relative;
+  z-index: 10;
+}
 
 .route__thumb {
   position: relative;
   height: 322px;
+}
+
+.route__top__left .route__thumb{
+  margin-top: -70px;
 }
 
 .route_mark_1 {
@@ -541,6 +553,10 @@ textarea {
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+}
+
+.route__bottom {
+  margin-top: -50px;
 }
 
 .route__bottom__wrapper {
@@ -742,14 +758,14 @@ textarea {
 
 .book__btn {
   margin: 0;
-  width: 100%;
+  width: 494px;
 }
 
 .booking__thumb {
   position: absolute;
   top: 50%;
   overflow: hidden;
-  width: 56%;
+  width: 50%;
   height: 712px;
   left: -30px;
   transform: translateY(-50%);
