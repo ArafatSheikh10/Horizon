@@ -403,6 +403,14 @@
         bottom: 109px;
         right: 188px;
     }
+
+    .buy__wrapper {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+        align-items: center;
+        background-size: contain;
+    }
     
     .contact-info__wraper {
         grid-template-columns: 1fr;
@@ -550,13 +558,6 @@
         width: 276px;
         padding: 13px 45px;
         margin-top: -36px;
-    }
-
-    .buy__wrapper {
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 40px;
-        align-items: center;
     }
 
     .buy__area {
